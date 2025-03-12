@@ -9,7 +9,7 @@ El proprósito de este repositorio es centralizar todos los elementos necesarios
 - Habilidades en la documentación y presentación de soluciones de manera clara y organizada.
 
 ## Participantes
-- Samuel Chaves
+
 - Cristian Bello
 - Carlos Cardona
 - Daniel Ayala
