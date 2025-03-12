@@ -10,7 +10,7 @@ Optimización del ancho de banda: Analizando el espectro de la señal, se puede 
 
 ## 2. Señales compuestas y espectro de frecuencias
 
-Si la señal que se esta trasmitiendo es periódica y está compuesta por la suma de tres sinusoides de diferentes frecuencias de f1, f2 y f3. La señal de este tiempo se puede expresar de la sigueinte manera:
+Si la señal que se esta trasmitiendo es periódica y está compuesta por la suma de tres sinusoides de diferentes frecuencias de f1, f2 y f3. La señal de este tiempo se puede expresar de la siguiente manera:
 
 ![Imagen 1](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Imagen1.jpg)
 
