@@ -17,6 +17,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
   - Manejo de múltiples conexiones: Se utiliza threading para atender cada cliente de forma independiente.
   - Proceso de conexión: Al conectar un cliente, se le solicita su nombre, luego, se reciben mensajes y se envía una respuesta de confirmación.
   - Gestión de mensajes: Se implemnetan controles para la longitud del mensaje y la cantidad de mensajes por segundo, protegiendo el servidor de posibles abusos.
+  - LocalHost: Para conectar diferentes computadoras se tendria que cambiar los otros computadores a la siguiente IP: 192.168.0.10
 
 - Cliente
   - Conexión: Se conecta a localHost en el puerto 2010.
