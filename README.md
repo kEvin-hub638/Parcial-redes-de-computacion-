@@ -5,14 +5,14 @@ Este repositorio contiene los enunciados, materiales de trabajo, simulaciones, c
 ## Propósito del Repositorio
 El proprósito de este repositorio es centralizar todos los elementos necesarios para la realización y evaluación del parcial. Se espera que los estudiantes demuestren: 
 - La correcta comprensión de los conceptos teóricos vistos en clase.
-- La capacidad de implementat y simular escenarios prácticos relacionados con la comunicación en redes.
+- La capacidad de implementar y simular escenarios prácticos relacionados con la comunicación en redes.
 - Habilidades en la documentación y presentación de soluciones de manera clara y organizada.
 
 ## Participantes
 - Samuel Chaves
+- Cristian Bello
 - Carlos Cardona
 - Daniel Ayala
-- Cristian Bello
 
 ## Detalles de la Entrega
 - Fecha de Entrega: 12 de marzo de 2025
