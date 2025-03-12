@@ -29,6 +29,40 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 - Control de Errores: Se validó que el servidr desconecta clientes que exceden el límite de longitud de mensajes o envían mensajes a una velocidad excesiva.
 
 ## Evidencias de Ejecución
+- Iniciar Servidor:
+
+  
+
+- Conexion Cliente1:
+
+  
+
+- Conexion Cliente2:
 
 
 
+- Conexion Cliente3:
+
+
+
+- Conexion Cliente4:
+
+
+
+- Comunicacion entre clientes:
+
+
+
+- Comunicacion del servidor hacia los clientes:
+
+
+
+- Recepcion del servidor:
+
+
+
+- Cerrar servidor vista servidor:
+
+
+
+- Cerrar servidor vista cliente: 
