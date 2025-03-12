@@ -63,7 +63,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 
 - Cerrar servidor vista servidor:
 
-![imagen11](
+![imagen11](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Cerrar%20servidor%20vista%20seridor.png)
 
 - Cerrar servidor vista cliente:
 
