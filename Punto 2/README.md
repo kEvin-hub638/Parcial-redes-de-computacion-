@@ -1,33 +1,34 @@
-## 1. Introduccion
-El objetivo de este punto es simular una arquitectura de cliente-servidor utilizando sockets en Python para demostrar la capacidad de manejar múltiples conexiones simultáneas. Se desarrollaron dos programas:
-- Servidor: Escucha en el puerto 2010, acepta conexiones y responde a los clientes.
-- Cliente: Se conecta al servidor, envía un mensaje indentificándose y espera la confirmación.
+## 1. Introducción
+El propósito de este punto es simular una arquitectura de cliente-servidor utilizando **sockets** en **Python**, demostrando la capacidad de gestionar múltiples conexiones simultáneamente. Se implementaron dos programas:  
+- **Servidor:** Escucha en el puerto **2010**, acepta conexiones y responde a los clientes.  
+- **Cliente:** Se conecta al servidor, envía un mensaje identificándose y espera una confirmación.  
 
-La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la implemnetación de comunicación bidireccional, fundamental en redes de computadoras.
+Este ejercicio tiene como finalidad evidenciar el manejo de conexiones **TCP** y la implementación de comunicación bidireccional, aspecto clave en redes de computadoras.  
 
 ## 2. Objetivos
-- Implementar un servidor TCP que acepte múltiples conexiones de clientes mediante el uso de threading.
-- Desarrollar un cliente que conecte al servidor y envíe su identificación
-- Verificar la comunicación entre cliente y servidor, asegurando que cada mensaje enviado sea reconocido y respondido.
-- Realizar pruebas ejecutando simultáneamente al menos cuatro clientes, demostrando la robustez del sistema.
+- Diseñar un servidor **TCP** que pueda aceptar múltiples conexiones de clientes utilizando **hilos**.  
+- Desarrollar un cliente que establezca conexión con el servidor y envíe su identificación.  
+- Comprobar la comunicación entre cliente y servidor, asegurando que cada mensaje transmitido sea recibido y respondido correctamente.  
+- Realizar pruebas con al menos cuatro clientes en ejecución simultánea para demostrar la estabilidad del sistema.  
 
 ## 3. Descripción del Sistema
-- Servidor
-  - Puerto de escucha: 2010.
-  - Manejo de múltiples conexiones: Se utiliza threading para atender cada cliente de forma independiente.
-  - Proceso de conexión: Al conectar un cliente, se le solicita su nombre, luego, se reciben mensajes y se envía una respuesta de confirmación.
-  - Gestión de mensajes: Se implemnetan controles para la longitud del mensaje y la cantidad de mensajes por segundo, protegiendo el servidor de posibles abusos.
-  - LocalHost: Para conectar diferentes computadoras se tendria que cambiar los otros computadores a la siguiente IP: 192.168.0.10
+- **Servidor**  
+  - **Puerto de escucha:** **2010**.  
+  - **Gestión de múltiples conexiones:** Se emplea **threading** para manejar cada cliente de manera independiente.  
+  - **Proceso de conexión:** Al conectarse un cliente, se le solicita su nombre, luego se reciben mensajes y se envía una respuesta de confirmación.  
+  - **Administración de mensajes:** Se implementan controles para la longitud de los mensajes y la frecuencia de envío, evitando posibles sobrecargas en el servidor.  
+  - **LocalHost:** Para conectar computadoras diferentes, es necesario configurar la IP de los otros dispositivos en **192.168.0.10**.  
 
-- Cliente
-  - Conexión: Se conecta a localHost en el puerto 2010.
-  - Interacción: Solicita al usuario su nombre, envía un mensaje de saludo formateado y muetra en consola la respuesta del servidor.
-  - Comunicación continua: Permite enviar múltiples mensajes, cerrándose la conexión cuando se ingresa el comando de salida.
+- **Cliente**  
+  - **Establecimiento de conexión:** Se conecta a **localHost** en el puerto **2010**.  
+  - **Interacción:** Solicita el nombre del usuario, envía un mensaje de presentación y muestra en consola la respuesta del servidor.  
+  - **Comunicación persistente:** Permite el envío de múltiples mensajes y finaliza la conexión cuando se introduce el comando de salida.  
 
 ## 4. Pruebas Realizadas
-- Prueba de Conexión Simultánea: Se ejecutaron cuatro instancias del cliente de forma simultánea, verificando que el servidor acepta y responde a cada conexión sin interrupciones.
-- Verificación de Mensajes: Cada cliente envió un mensaje de saludo y el servidor respondió confirmando la recepción, mostrando en consola la identificación y el mensaje de cada cliente.
-- Control de Errores: Se validó que el servidr desconecta clientes que exceden el límite de longitud de mensajes o envían mensajes a una velocidad excesiva.
+- **Prueba de Conexión Simultánea:** Se ejecutaron cuatro instancias del cliente al mismo tiempo, verificando que el servidor acepta y responde a cada conexión sin fallas.  
+- **Validación de Mensajes:** Cada cliente envió un mensaje de saludo y el servidor confirmó su recepción, mostrando en consola el identificador y contenido del mensaje.  
+- **Manejo de Errores:** Se comprobó que el servidor desconecta a los clientes que superan el límite de caracteres en los mensajes o envían datos de forma excesivamente rápida.  
+
 
 ## 5. Evidencias de Ejecución
 - Iniciar Servidor:
