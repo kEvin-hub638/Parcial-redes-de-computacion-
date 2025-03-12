@@ -51,7 +51,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 
 - Comunicacion entre clientes:
 
-
+![imagen8](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Comunicacion%20entre%20clientes.png)
 
 - Comunicacion del servidor hacia los clientes:
 
