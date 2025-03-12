@@ -55,7 +55,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 
 - Comunicacion del servidor hacia los clientes:
 
-
+![imagen9](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Comunicacion%20del%20servidor%20hacia%20los%20clientes.png)
 
 - Recepcion del servidor:
 
