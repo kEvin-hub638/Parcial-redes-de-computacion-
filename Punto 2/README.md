@@ -28,7 +28,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 - Verificación de Mensajes: Cada cliente envió un mensaje de saludo y el servidor respondió confirmando la recepción, mostrando en consolala identificación y el mensaje de cada cliente.
 - Control de Errores: Se validó que el servidr desconecta clientes que exceden el límite de longitud de mensajes o envían mensajes a una velocidad excesiva.
 
-## Evidencias de Ejecución
+## 5. Evidencias de Ejecución
 - Iniciar Servidor:
 
 ![Imagen3](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Iniciar_Servidor.png)
