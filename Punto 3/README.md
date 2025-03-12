@@ -23,4 +23,4 @@ El código se encuentra en un único archivo Python y está organizado de la sig
 
 ## Ejemplo de Salida
 
-![imagen13](
+![imagen13](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/imagen_2025-03-12_005542478.png)
