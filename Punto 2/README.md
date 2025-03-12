@@ -31,7 +31,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 ## Evidencias de Ejecución
 - Iniciar Servidor:
 
-  
+![Imagen3](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Iniciar_Servidor.png)
 
 - Conexion Cliente1:
 
