@@ -10,12 +10,12 @@ Optimización del ancho de banda: Analizando el espectro de la señal, se puede 
 
 ## 2. Señales compuestas y espectro de frecuencias
 
-Si la señal que se esta trasmitiendo es periódica y está compuesta por la suma de tres sinusoides de diferentes frecuencias de f1, fa2 y f3. La señal de este tiempo se puede expresar de la sigueinte manera:
+Si la señal que se esta trasmitiendo es periódica y está compuesta por la suma de tres sinusoides de diferentes frecuencias de f1, f2 y f3. La señal de este tiempo se puede expresar de la sigueinte manera:
 
 ![Imagen 1](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Imagen1.jpg)
 
 en  donde  A1, A2 Y A3 son las amplitudes que le correponden a cada sinusoide.
-Cuando se aplica la Transformcada de Fourier a x(t), se esta transformando la señal del domino del tiempo al dominio de la frecuencia. El resultado es una representacion la cual muestra las constribuciones de cada frecuencia.Esto matematicamente se ve la transformada de afaourier de una sinusoide se expresa mediante funciones delta de Dirac, para este caso en especifico, la Transformada de Fourier X(f) de x(t) es:
+Cuando se aplica la Transformcada de Fourier a x(t), se esta transformando la señal del domino del tiempo al dominio de la frecuencia. El resultado es una representacion la cual muestra las constribuciones de cada frecuencia. Esto matematicamente se ve la transformada de faourier de una sinusoide se expresa mediante funciones delta de Dirac, para este caso en especifico, la Transformada de Fourier X(f) de x(t) es:
 
 ![Imagen 2](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Imagen2.jpg)
 
