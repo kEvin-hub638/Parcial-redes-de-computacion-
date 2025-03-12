@@ -1,36 +1,38 @@
-# Primer Parcial - Redes de datos
+# Primer Parcial - Redes de Datos
+
 ## Descripción General
-Este repositorio contiene los enunciados, materiales de trabajo, simulaciones, código y documentación correspondiente al Primer Parcial de la asignatura Redes de Computación. El parcial tiene como objetivo evaluar los conocimientos y habilidades prácticas de los estudiantes en aspectos fundamientales de las redes de computadoras, desde conceptos básicos de la capa física hasta el análisis y simulación de comportamientos en protocolos como TCP.
+Este repositorio almacena los enunciados, materiales de apoyo, simulaciones, código fuente y documentación referente al **Primer Parcial** de la asignatura **Redes de Computación**. El objetivo del parcial es evaluar los conocimientos adquiridos y las habilidades prácticas de los estudiantes en conceptos clave de las redes de computadoras, abarcando desde aspectos básicos de la capa física hasta el análisis y simulación de protocolos como **TCP**.
 
 ## Propósito del Repositorio
-El proprósito de este repositorio es centralizar todos los elementos necesarios para la realización y evaluación del parcial. Se espera que los estudiantes demuestren: 
-- La correcta comprensión de los conceptos teóricos vistos en clase.
-- La capacidad de implementar y simular escenarios prácticos relacionados con la comunicación en redes.
-- Habilidades en la documentación y presentación de soluciones de manera clara y organizada.
+El propósito de este repositorio es reunir en un solo lugar todos los recursos necesarios para la realización y evaluación del parcial. Se espera que los estudiantes demuestren:  
+- Una correcta comprensión de los fundamentos teóricos impartidos en clase.  
+- Habilidad para desarrollar e implementar simulaciones prácticas relacionadas con la comunicación en redes.  
+- Capacidad para documentar y presentar sus soluciones de manera estructurada y organizada.  
 
 ## Participantes
--Kevin Guevara
+- **Kevin Guevara**
 
 ## Detalles de la Entrega
-- Fecha de Entrega: 12 de marzo de 2025
-- Formato de Entrega: Repositorio Git con estructura clara, que incluye código, simulaciones, eidencia de ejecución (capturas de pantalla, logs, etc.) y documentacion complementaria.
+- **Fecha de Entrega:** 12 de marzo de 2025  
+- **Formato de Entrega:** Repositorio en Git con una estructura bien organizada, que incluya código, simulaciones, evidencias de ejecución (capturas de pantalla, logs, etc.) y documentación adicional.
 
 ## Contenidos del Parcial
-Los temas abordados en este parcial incluyen:
-- Direccionamiento IPv4:
+Los temas evaluados en este parcial incluyen:
+- **Direccionamiento IPv4:**  
   Configuración y análisis de direcciones IP, subredes y máscaras de red.
--  Conexión con Sockets:
-  Implementación y simulación de conexiones utilizando sockets para la comunicación entre procesos.
-- Control de Congestión en TCP:
-  Análisis y simulación del comportamiento de TCP, con énfasis en la gestión de la congestión.
-- Aplicación de la Transformada de Fourier en la Capa Fisica:
-  Uso de la transformada para analizar y comprender las señales en la capa fisica de la red.
+- **Conexión con Sockets:**  
+  Implementación y simulación de conexiones mediante sockets para la comunicación entre procesos.
+- **Control de Congestión en TCP:**  
+  Estudio y simulación del comportamiento de **TCP**, con énfasis en su mecanismo de control de congestión.
+- **Aplicación de la Transformada de Fourier en la Capa Física:**  
+  Uso de la transformada para estudiar y comprender las señales en la capa física de la red.
 
 ## Estructura del Repositorio
-El repositorio se organiza en diferentes secciones que corresponden a los puntos evaluados:
-- Punto1: Capa Fisica
-  Ejercicios y simulaciones relacionados con análisis de señales y la aplicación de la transformada de Fourier.
-- Punto2: Sockets
-  Ejemplos de códigos y simulaciones que demuestran la implementación de conexiones a través de sockets.
-- Punto3: TCP
-  Ejercicios prácticos y simulaciones orientadas al control de congestión y funcionamiento de TCP. 
+El repositorio se divide en secciones correspondientes a los puntos evaluados:
+- **Punto1: Capa Física**  
+  Ejercicios y simulaciones sobre análisis de señales y aplicación de la transformada de Fourier.
+- **Punto2: Sockets**  
+  Código de ejemplo y simulaciones que ilustran la implementación de conexiones utilizando sockets.
+- **Punto3: TCP**  
+  Ejercicios prácticos y simulaciones enfocadas en la gestión de la congestión y funcionamiento del protocolo **TCP**.
+
