@@ -12,4 +12,4 @@ Optimización del ancho de banda: Analizando el espectro de la señal, se puede 
 
 Si la señal que se esta trasmitiendo es periódica y está compuesta por la suma de tres sinusoides de diferentes frecuencias de f1, fa2 y f3. La señal de este tiempo se puede expresar de la sigueinte manera:
 
-
+![Imagen 1](
