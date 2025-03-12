@@ -59,7 +59,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 
 - Recepcion del servidor:
 
-
+![imagen10](https://github.com/ALMA3112/Parcial-redes-de-computacion-/blob/main/Imagenes/Recepcion%20del%20servidor.png)
 
 - Cerrar servidor vista servidor:
 
