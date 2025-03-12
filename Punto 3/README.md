@@ -1,25 +1,26 @@
-# Simulación del Comportamiento de TCP Tahoe
+# Simulación del Funcionamiento de TCP Tahoe
 
-Este ejercicio implementa una simulación básica del comportamiento de la ventana de congestión (cwnd) en TCP Tahoe utilizando Python. El objetivo es demostrar cómo TCP ajusta la ventana de congestión en función de eventos de éxito y pérdida de paquetes, simulando el proceso de Slow Start y la reacción ante la congestión en la red.
+Este ejercicio desarrolla una simulación sencilla del comportamiento de la ventana de congestión (**cwnd**) en **TCP Tahoe** utilizando **Python**. Su propósito es ilustrar cómo **TCP** ajusta dinámicamente la ventana de congestión en respuesta a eventos de éxito y pérdida de paquetes, simulando los mecanismos de **Slow Start** y la reacción ante congestión en la red.
 
 ## Descripción
 
-La simulación se basa en los siguientes conceptos:
-- Ventana de Congestión (cwnd): Inicialmente se establece en 1.
-- Transmisiones: Se simulan 20 transmisiones de datos.
-- Eventos de Transmisión:
-  - Éxito: Con una probabilidad del 80%, se incrementa el valor de cwnd en 1.
-  - Pérdida: Con una probabilidad del 20%, se simula la pérdida de un paquete y la ventana de congestión se reinicia a 1, emulando el comportamiento de TCP Tahoe ante la congestión.
+La simulación se basa en los siguientes principios:
+- **Ventana de Congestión (cwnd):** Se inicializa con un valor de 1.
+- **Transmisiones:** Se simulan **20 envíos** de datos.
+- **Eventos durante la transmisión:**
+  - **Éxito:** Con una probabilidad del **80%**, la ventana de congestión aumenta en 1.
+  - **Pérdida:** Con una probabilidad del **20%**, se simula la pérdida de un paquete y **cwnd** se restablece a 1, replicando la respuesta de **TCP Tahoe** ante la congestión.
 
 ## Estructura del Código
 
-El código se encuentra en un único archivo Python y está organizado de la siguiente manera:
-- Importación de módulos: Se utiliza el módulo random para simular el comportamiento aleatorio de las transmisiones.
-- Función simular_tcp_tahoe():
-  - Inicializa la ventana de congestión (cwnd).
-  - Define el número total de transmisiones y las probabilidades de éxito y pérdida.
-  - Ejecuta un ciclo de 20 transmisiones en el que se decide aleatoriamente si la transmisión es exitosa o falla.
-  - Imprime el estado de cada transmisión junto con el valor actualizado de cwnd.
+El código se encuentra en un único archivo **Python** y está organizado de la siguiente manera:
+- **Importación de módulos:** Se emplea el módulo `random` para modelar el comportamiento aleatorio de las transmisiones.
+- **Función `simular_tcp_tahoe()`:**  
+  - Inicializa la ventana de congestión (**cwnd**).  
+  - Define el número total de transmisiones y las probabilidades de éxito y falla.  
+  - Realiza un ciclo de **20 transmisiones**, determinando de manera aleatoria si la transmisión es exitosa o si se produce una pérdida.  
+  - Muestra en pantalla el estado de cada transmisión junto con el valor actualizado de **cwnd**.  
+
 
 ## Ejemplo de Salida
 
