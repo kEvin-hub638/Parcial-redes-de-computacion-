@@ -65,7 +65,7 @@ def cliente(socket_cliente, direccion_cliente):
 def broadcast(mensaje, sender_socket=None):
     for cliente in clientes:
          # Evita enviar el mensaje al socket que lo originó
-        if clientes != sender_socket:
+        if cliente != sender_socket:
             try:
                 cliente.send(mensaje.encode('utf-8'))
             except:
