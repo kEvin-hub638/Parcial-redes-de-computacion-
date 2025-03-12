@@ -1,7 +1,7 @@
 # Primer Parcial - Redes de Datos
 
 ## Descripción General
-Este repositorio almacena los enunciados, materiales de apoyo, simulaciones, código fuente y documentación referente al **Primer Parcial** de la asignatura **Redes de Computación**. El objetivo del parcial es evaluar los conocimientos adquiridos y las habilidades prácticas de los estudiantes en conceptos clave de las redes de computadoras, abarcando desde aspectos básicos de la capa física hasta el análisis y simulación de protocolos como **TCP**.
+Este repositorio almacena los enunciados, materiales de apoyo, simulaciones, código fuente y documentación referente al Primer Parcial de la asignatura Redes de Computación. El objetivo del parcial es evaluar los conocimientos adquiridos y las habilidades prácticas de los estudiantes en conceptos clave de las redes de computadoras, abarcando desde aspectos básicos de la capa física hasta el análisis y simulación de protocolos como TCP.
 
 ## Propósito del Repositorio
 El propósito de este repositorio es reunir en un solo lugar todos los recursos necesarios para la realización y evaluación del parcial. Se espera que los estudiantes demuestren:  
