@@ -1,5 +1,5 @@
 ## 1. Introduccion
-El objetivo de este punto es simular una arquitectura de cliente-servidor utilizando sockets en Python para demostarr la capacidad de manejar múltiples conexiones simultáneas. Se desarrollaron deos programas:
+El objetivo de este punto es simular una arquitectura de cliente-servidor utilizando sockets en Python para demostrar la capacidad de manejar múltiples conexiones simultáneas. Se desarrollaron deos programas:
 - Servidor: Escucha en el puerto 2010, apecta conexiones y responde a los clientes.
 - Cliente: Se conecta al servidor, envía un mensaje indentificándose y espera la confirmación.
 
