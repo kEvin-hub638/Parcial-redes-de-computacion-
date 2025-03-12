@@ -25,7 +25,7 @@ La finalidad de este ejercicio es evidenciar el manejo de conexiones TCP y la im
 
 ## 4. Pruebas Realizadas
 - Prueba de Conexión Simultánea: Se ejecutaron cuatro instancias del cliente de forma simultánea, verificando que el servidor acepta y responde a cada conexión sin interrupciones.
-- Verificación de Mensajes: Cada cliente envió un mensaje de saludo y el servidor respondió confirmando la recepción, mostrando en consolala identificación y el mensaje de cada cliente.
+- Verificación de Mensajes: Cada cliente envió un mensaje de saludo y el servidor respondió confirmando la recepción, mostrando en consola la identificación y el mensaje de cada cliente.
 - Control de Errores: Se validó que el servidr desconecta clientes que exceden el límite de longitud de mensajes o envían mensajes a una velocidad excesiva.
 
 ## 5. Evidencias de Ejecución
