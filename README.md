@@ -13,6 +13,7 @@ El proprósito de este repositorio es centralizar todos los elementos necesarios
 - Cristian Bello
 - Carlos Cardona
 - Daniel Ayala
+- Samuel Chaves
 
 ## Detalles de la Entrega
 - Fecha de Entrega: 12 de marzo de 2025
